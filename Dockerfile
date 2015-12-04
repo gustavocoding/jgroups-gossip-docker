@@ -1,6 +1,6 @@
-FROM jboss/base-jdk:7
+FROM jboss/base-jdk:8
 
-ENV JGROUPS_VERSION 3.6.6.Final 
+ENV JGROUPS_VERSION 3.6.4.Final
 
 RUN curl https://repo1.maven.org/maven2/org/jgroups/jgroups/$JGROUPS_VERSION/jgroups-$JGROUPS_VERSION.jar > jgroups.jar
 
