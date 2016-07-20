@@ -1,2 +1,3 @@
 # jgroups-gossip-docker
-Docker image for the JGroups Gossip server
+
+This image is deprecated. Please use https://hub.docker.com/r/jboss/jgroups-gossip/ instead.
